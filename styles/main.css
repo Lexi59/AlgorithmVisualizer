@@ -60,3 +60,7 @@ section{
     width: 80%;
     margin: auto;
 }
+
+.target{
+    background-color: purple;
+}
