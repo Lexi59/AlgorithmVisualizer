@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Searching Algorithms</title>
+    <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
+    <link rel = "stylesheet" href = "../styles/main.css">
+</head>
+<body>
+    <nav id = "toolbar">
+        <ul>
+            <li onclick = 'generateArray();'>Generate New Array</li>
+            <li class = 'selected' onclick = 'select("Breadth-First");'>Breadth-First</li>
+            <li onclick = 'select("Depth-First");'>Depth-First</li>
+            <li onclick = 'select("Djistras");'>Djistras</li>
+            <li onclick = 'select("A*");'>A*</li>
+            <li id ='sort' onclick="sort();">Go!</li>
+        </ul>
+    </nav>
+    <section id = 'appArea'>
+    </section>
+    <script src="../js/pathfinding.js"></script>
+</body>
+</html>

@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+button{
+    width: 30%;
+    min-width: 215px;
+    padding: 0;
+    margin: 1em;
+}
+#homepage{
+    width: 50%;
+    margin: 0 auto;
+}
+h1, h2{
+    text-align: center;
+}
+
+/* Styles for sorting homepage */
+
+li:hover, li:focus{
+    background-color: #1EAEDB;
+}
+ul{
+    width:100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+ul li{
+    float:left;
+    width: 16.66%;
+    min-width: 145px;
+    margin: 0;
+    display: block;
+    text-align: center;
+    padding: 1em 0;
+    text-decoration: none;
+    background-color: #33C3F0;
+    color:white;
+    font-weight: bold;
+}
+#sort{
+    background-color: #A3B86C;
+}
+#sort:hover{
+    background-color: #93A661;
+}
+.selected{
+    color: black;
+}
+
+div{
+    background-color: red;
+    border: 1px solid black;
+    float:left;
+    width: .7%;
+}
+section{
+    width: 80%;
+    margin: auto;
+}

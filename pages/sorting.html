@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorting Algorithms</title>
+    <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
+    <link rel = "stylesheet" href = "../styles/main.css">
+</head>
+<body>
+    <nav id = "toolbar">
+        <ul>
+            <li onclick = 'generateArray();'>Generate New Array</li>
+            <li class = 'selected' onclick = 'select("Bubble Sort");'>Bubble Sort</li>
+            <li onclick = 'select("Selection Sort");'>Selection Sort</li>
+            <li onclick = 'select("Insertion Sort");'>Insertion Sort</li>
+            <li onclick = 'select("Quick Sort");'>Quick Sort</li>
+            <li id ='sort' onclick="sort();">Go!</li>
+        </ul>
+    </nav>
+    <section id = 'appArea'>
+    </section>
+    <script src="../js/sorting.js"></script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Searching Algorithms</title>
+    <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
+    <link rel = "stylesheet" href = "../styles/main.css">
+</head>
+<body>
+    <nav id = "toolbar">
+        <ul>
+            <li onclick = 'generateArray();'>Generate New Array</li>
+            <li class = 'selected' onclick = 'select("Linear Search");'>Linear Search</li>
+            <li onclick = 'select("Binary Search");'>Binary Search</li>
+            <li onclick = 'select("Jump Search");'>Jump Search</li>
+            <li onclick = 'select("Interpolation Search");'>Interpolation Search</li>
+            <li id ='sort' onclick="sort();">Go!</li>
+        </ul>
+    </nav>
+    <section id = 'appArea'>
+    </section>
+    <script src="../js/searching.js"></script>
+</body>
+</html>
